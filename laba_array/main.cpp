@@ -325,7 +325,7 @@ void printArrayRange(string name_array, string start, string end, map<string, Ar
         cerr << "Error index" << endl;
         return;
     }
-    cout << "PrintRange ";
+    cout << "PrintRange  ";
     for (int i = start_index; i < end_index; i++) {
         cout << array[i] << " ";
     }
