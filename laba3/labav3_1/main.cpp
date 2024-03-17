@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
     for (int i = 1; i < argc; ++i) {
         vector<Variables> area;
 
-        ifstream file_input("G:\\CLion 2023.3.3\\projects\\labav3_1\\" + (string)argv[i]);
+        ifstream file_input("G:\\CLion 2023.3.3\\projects\\laba3\\labav3_1\\" + (string)argv[i]);
         if (!file_input.is_open()) {
             cerr << "Error: file not open(((" << endl;
             return 1;
