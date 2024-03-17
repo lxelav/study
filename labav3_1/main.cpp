@@ -5,7 +5,6 @@
 
 using namespace std;
 
-//Юзаю мапку, основанную на хэш-таблице, потому что нужна скорость для поиска
 struct Variables {
     map<string, int> var;
 };
