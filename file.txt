@@ -1,0 +1,3 @@
+ADD_POOL pool1
+ADD_SCHEMA pool1 schema1
+ADD_COLLECTION pool1 schema1 collection1 has-table

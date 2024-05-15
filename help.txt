@@ -1,0 +1,11 @@
+ADD_POOL <pool_name>: Add a new pool with the specified name.
+REMOVE_POOL <pool_name>: Remove the pool with the specified name.
+ADD_SCHEMA <pool_name> <schema_name>: Add a new schema to the specified pool with the given name.
+REMOVE_SCHEMA <pool_name> <schema_name>: Remove the schema with the specified name from the given pool.
+ADD_COLLECTION <pool_name> <schema_name> <collection_name>  <containerType>: Add a new collection to the specified schema within the specified pool.
+REMOVE_COLLECTION <pool_name> <schema_name> <collection_name>: Remove the collection with the specified name from the specified schema within the specified pool.
+ADD_RECORD <pool_name> <schema_name> <collection_name> <key> <value>: Add a new record with the given key and value to the specified collection within the specified schema within the specified pool.
+READ_RECORD <pool_name> <schema_name> <collection_name> <key>: Read the record with the specified key from the specified collection within the specified schema within the specified pool.
+READ_RECORDS_RANGE <pool_name> <schema_name> <collection_name> <min_key> <max_key>: Read records from the specified collection within the specified schema within the specified pool within the range of keys specified by min_key and max_key.
+UPDATE_RECORD <pool_name> <schema_name> <collection_name> <key> <new_value>: Update the value of the record with the specified key in the specified collection within the specified schema within the specified pool to the new_value.
+DELETE_RECORD <pool_name> <schema_name> <collection_name> <key>: Delete the record with the specified key from the specified collection within the specified schema within the specified pool.
