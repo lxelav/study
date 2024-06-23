@@ -1,0 +1,16 @@
+# T
+This is some code
+{
+    This is a multi-line comment
+    {
+        This is a nested multi-line comment
+    }
+    Back to the outer multi-line comment
+}
+More code here
+# Another single-line comment
+{
+    Another multi-line comment
+    { Another nested comment }
+}
+Final code line
